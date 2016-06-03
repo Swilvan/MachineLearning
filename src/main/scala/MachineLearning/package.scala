@@ -7,5 +7,6 @@ package object MachineLearning {
     def y(x:Double):Double = origin + slope * x
   }
 
+  case class Point(x:Double, y:Double)
 
 }
